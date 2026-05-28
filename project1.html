@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Learn Hub</title>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+
+        /* HEADER */
+        .top-banner {
+            background-color: white;
+            height: 150px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: red;
+            font-family: 'Lucida Handwriting', cursive;
+            font-size: 40px;
+            text-align: center;
+            padding-top: 20px;
+            letter-spacing: 2px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 15px;
+            color: black;
+        }
+
+        /* MAIN SECTION */
+        main {
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 15px;
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            padding-top: 30px;
+            padding-left: 20px;
+            color: #4B5694;
+        }
+
+        .divider {
+            border: 2px solid black;
+            margin: 0 20px 20px 20px;
+        }
+
+        /* CONTENT BOX */
+        .content-box {
+            background-color: rgb(237, 241, 241);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            overflow: hidden;
+        }
+
+        img {
+            width: 120px;
+            float: left;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        #info-text {
+            text-align: justify;
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        h5 {
+            color: blue;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        #google-link {
+            color: red;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        /* SECOND SECTION */
+        #history-section {
+            padding-bottom: 30px;
+        }
+
+        #section-title {
+            padding-top: 30px;
+            padding-left: 20px;
+            color: #4B5694;
+            font-size: 30px;
+        }
+
+        .divider-two {
+            border: 2px solid black;
+            margin: 0 20px 20px 20px;
+        }
+
+        h4 {
+            margin-left: 20px;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .table-head {
+            background-color: #232F72;
+            color: white;
+        }
+
+        /* FORM SECTION */
+        #register-area {
+            padding-bottom: 30px;
+        }
+
+        fieldset {
+            margin: 20px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        legend {
+            color: #121358;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        #full-name,
+        #mail-box,
+        #pass-key,
+        #study-level {
+            width: 95%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 8px;
+            border: 1px solid gray;
+        }
+
+        #send-btn,
+        #reset-btn {
+            padding: 10px 20px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        #send-btn {
+            background-color: #232F72;
+            color: white;
+        }
+
+        #reset-btn {
+            background-color: red;
+            color: white;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 15px;
+            padding: 10px;
+        }
+
+        #footer-text {
+            text-align: center;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="top-banner">
+
+        <div class="title-box">
+
+            <h1>Codes-world  porrtal</h1>
+
+            <p>MASTERING CORE HTML & CSS CONCEPTS</p>
+
+        </div>
+
+    </header>
+
+    <!-- FIRST SECTION -->
+    <main>
+
+        <h2>Understanding Text Formatting & Floats</h2>
+
+        <div class="divider"></div>
+
+        <section>
+
+            <div class="content-box">
+
+                <img src="image/Copilot_20260526_122626.png" alt="image">
+
+                <p id="info-text">
+
+                    This section demonstrates text alignment,
+                    transformation, and word spacing.
+                    The image beside this text uses the
+                    <b>CSS float property</b>.
+                    Float pushes an element to the left or right side.
+
+                </p>
+
+                <h5>
+
+                    This Specific Sentence Showcases
+                    Custom Letter-spacing,
+                    Text-Shadows,
+                    And A Capitalization Transformation.
+
+                </h5>
+
+                <a id="google-link"
+                    href="https://www.google.com"
+                    target="_blank">
+
+                    Visit Google for Reference
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- SECOND SECTION -->
+    <main id="history-section">
+
+        <h3 id="section-title">
+
+            Course Modules & History
+
+        </h3>
+
+        <div class="divider-two"></div>
+
+        <h4>CSS Evolution Timeline</h4>
+
+        <section>
+
+            <table>
+
+                <tr>
+
+                    <th class="table-head">Year</th>
+
+                    <th class="table-head">Specification</th>
+
+                    <th class="table-head">Key Features</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>1994</td>
+
+                    <td>The Proposal</td>
+
+                    <td>
+                        First conceptualized by
+                        Håkon Wium Lie at CERN
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>1996</td>
+
+                    <td>CSS1</td>
+
+                    <td>
+                        W3C official release supporting
+                        fonts, colors, and margins.
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>1998</td>
+
+                    <td>CSS2</td>
+
+                    <td>
+                        Added positioning,
+                        z-index,
+                        and media types.
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <!-- FORM SECTION -->
+    <main id="register-area">
+
+        <section>
+
+            <h2>Registration Form</h2>
+
+            <div class="divider"></div>
+
+            <form action="">
+
+                <fieldset>
+
+                    <legend>User Account Details</legend>
+
+                    <label for="full-name">
+
+                        Full Name:
+
+                    </label>
+
+                    <br>
+
+                    <input type="text"
+                        name="fullname"
+                        id="full-name"
+                        placeholder="John Doe"
+                        required>
+
+                    <br><br>
+
+                    <label for="mail-box">
+
+                        Email Address:
+
+                    </label>
+
+                    <br>
+
+                    <input type="email"
+                        name="email"
+                        id="mail-box"
+                        required>
+
+                    <br><br>
+
+                    <label for="pass-key">
+
+                        Password:
+
+                    </label>
+
+                    <br>
+
+                    <input type="password"
+                        name="password"
+                        id="pass-key"
+                        required>
+
+                    <br><br>
+
+                    <label>
+
+                        Gender:
+
+                    </label>
+
+                    <br><br>
+
+                    <input type="radio"
+                        name="gender"
+                        value="male">
+
+                    Male
+
+                    <input type="radio"
+                        name="gender"
+                        value="female">
+
+                    Female
+
+                    <br><br>
+
+                    <label for="study-level">
+
+                        Highest Qualification:
+
+                    </label>
+
+                    <br>
+
+                    <select name="qualification"
+                        id="study-level"
+                        required>
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option value="10">
+                            10th
+                        </option>
+
+                        <option value="12">
+                            12th
+                        </option>
+
+                        <option value="graduation">
+                            Graduation
+                        </option>
+
+                        <option value="bca">
+                            BCA
+                        </option>
+
+                        <option value="bba">
+                            BBA
+                        </option>
+
+                    </select>
+
+                    <br><br>
+
+                    <input type="submit"
+                        value="Submit Details"
+                        id="send-btn">
+
+                    <input type="reset"
+                        value="Clear Form"
+                        id="reset-btn">
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h6 id="footer-text">
+
+            &copy; 2026 Tech Learn Hub,
+            All Rights Reserved
+
+        </h6>
+
+    </footer>
+
+</body>
+
+</html>
